@@ -8,6 +8,10 @@ dalek-internal-testsuite
 [![Dependency Status](https://david-dm.org/dalekjs/dalek-internal-testsuite.png)](https://david-dm.org/dalekjs/dalek-internal-testsuite)
 [![devDependency Status](https://david-dm.org/dalekjs/dalek-internal-testsuite/dev-status.png)](https://david-dm.org/dalekjs/dalek-internal-testsuite#info=devDependencies)
 [![NPM version](https://badge.fury.io/js/dalek-internal-testsuite.png)](http://badge.fury.io/js/dalek-internal-testsuite)
+[![Coverage](http://dalekjs.com/package/dalek-internal-testsuite/master/coverage/coverage.png)](http://dalekjs.com/package/dalek-internal-testsuite/master/coverage/index.html)
+[![unstable](https://rawgithub.com/hughsk/stability-badges/master/dist/unstable.svg)](http://github.com/hughsk/stability-badges)
+
+[![NPM](https://nodei.co/npm/dalek-internal-testsuite.png)](https://nodei.co/npm/dalek-internal-testsuite/)
 
 ## Warning
 
@@ -16,7 +20,8 @@ It provides a way to run testsuites used by DalekJS.
 
 ## Ressources
 
-[API Documentation](http://dalekjs.com/package/dalek-internal-testsuite/master/api/index.html) -
+[API Docs](http://dalekjs.com/package/dalek-internal-testsuite/master/api/index.html) -
+[Trello](https://trello.com/b/hxXUdFss/dalek-internal-testsuite) -
 [Code coverage](http://dalekjs.com/package/dalek-internal-testsuite/master/coverage/index.html) -
 [Code complexity](http://dalekjs.com/package/dalek-internal-testsuite/master/complexity/index.html) -
 [Contributing](https://github.com/dalekjs/dalek-internal-testsuite/blob/master/CONTRIBUTING.md) -
