@@ -128,7 +128,7 @@ module.exports = function (grunt) {
       }
     }
 
-    });
+  });
 
   // prepare files & folders for grunt:plato & coverage
   grunt.registerTask('preparePlato', function () {
