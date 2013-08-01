@@ -12,11 +12,7 @@ dalek-internal-testsuite
 [![unstable](https://rawgithub.com/hughsk/stability-badges/master/dist/unstable.svg)](http://github.com/hughsk/stability-badges)
 
 [![NPM](https://nodei.co/npm/dalek-internal-testsuite.png)](https://nodei.co/npm/dalek-internal-testsuite/)
-
-## Warning
-
-This module is only used internally by [DalekJS](//github.com/dalekjs/dalek).
-It provides a way to run testsuites used by DalekJS.
+[![NPM](https://nodei.co/npm-dl/dalek-internal-testsuite.png)](https://nodei.co/npm/dalek-internal-testsuite/)
 
 ## Ressources
 
@@ -28,6 +24,13 @@ It provides a way to run testsuites used by DalekJS.
 [User Docs](http://dalekjs.com/docs/master/testsuite.html) -
 [Homepage](http://dalekjs.com) -
 [Twitter](http://twitter.com/dalekjs)
+
+## Docs
+
+This module is only used internally by [DalekJS](//github.com/dalekjs/dalek).
+It provides a way to run testsuites used by DalekJS.
+
+TBA.
 
 ## Help Is Just A Click Away
 
@@ -62,7 +65,7 @@ requests that implement the feature).
 other, better channels for seeking assistance, like StackOverflow and the
 Google Groups mailing list.
 
-![DalekJS](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg)
+![DalekJS](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.png)
 
 ## Legal FooBar (MIT License)
 
