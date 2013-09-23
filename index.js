@@ -39,7 +39,7 @@ var test = require('dalek-internal-test');
 
 var Testsuite = function (options) {
   this.emitter = new EventEmitter2();
-  this.initialize(options); 
+  this.initialize(options);
   this.suite = this.loadTestsuite(options.file);
 };
 
@@ -97,7 +97,7 @@ Testsuite.prototype = {
         return suite;
       }
     } catch (e) {
-      this.error = 'Failure loading suite "' + testfile + '". Skipping!';      
+      this.error = 'Failure loading suite "' + testfile + '". Skipping!';
       return suite;
     }
 
@@ -234,7 +234,7 @@ Testsuite.prototype = {
    * @return {mixed} testValue
    */
 
-  executeNextTest: function (tests) { 
+  executeNextTest: function (tests) {
     // grab the next test in the queue
     var testName = this.getNextTest(tests);
     // get the next test function
@@ -297,14 +297,14 @@ Testsuite.prototype = {
     var tests = [];
 
     // check if the suite is
-    if (this.error) {     
-      this.reporterEmitter.emit('report:testsuite:started', null);      
+    if (this.error) {
+      this.reporterEmitter.emit('report:testsuite:started', null);
       // emit a warning notice
       this.reporterEmitter.emit('warning', this.error);
       // emit the suite finished event
       this.reporterEmitter.emit('report:testsuite:finished', null);
       // move on to the next suite
-      callback();    
+      callback();
     }
 
     // extract suite name
